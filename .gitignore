@@ -1,0 +1,13 @@
+node_modules/
+client/
+dist
+build/
+app.yaml
+# ignore all logs
+*.log
+cookies.json
+.env
+.env.local
+data/
+src/utils/dump_colleges/dump_colleges.json
+src/utils/dump_colleges/colleges.json
