@@ -1,0 +1,21 @@
+{
+  "apps": [
+    {
+      "name": "cutshort",
+      "script": "./dist/index.js",
+      "increment_var": "SERVER_PORT",
+      "env": {
+        "NODE_ENV": "production",
+        "DEST": "stdout",
+        "LOG_INTERVAL": "5000",
+        "MONGO_HOSTS": "",
+        "MONGO_DATABASE": "cutshort",
+        "MONGO_USERNAME": "",
+        "MONGO_PASSWORD": "",
+        "SERVER_HOST": "0.0.0.0",
+        "SERVER_PORT": 7777,
+        "JWT_SECRET": "Qqwerfqdfsi123rt"
+      }
+    }
+  ]
+}
